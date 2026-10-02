@@ -12,7 +12,23 @@
             android:value="DrDisagree" /> <!-- Author of the icon pack -->
 
         <!-- START OF ICON PACKS -->
+    <activity android:name="aurora"
+        android:label="Aurora"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
 
-        <!-- END OF ICON PACKS -->
+    <activity android:name="bars"
+        android:label="Bars"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+<!-- END OF ICON PACKS -->
     </application>
 </manifest>

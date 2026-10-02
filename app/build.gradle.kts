@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.drdisagree.pixelxpert.iconpack"
-    compileSdk = 34
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.drdisagree.pixelxpert.iconpack"
         minSdk = 33
-        targetSdk = 34
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
     }

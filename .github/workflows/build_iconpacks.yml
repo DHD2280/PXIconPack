@@ -30,8 +30,8 @@ jobs:
 
       - name: Set Git author identity
         run: |
-          git config user.email "crazymahmud08@gmail.com"
-          git config user.name "DrDisagree"
+          git config user.email "luigiconte98@gmail.com"
+          git config user.name "DHD2280"
 
       - name: Commit changes to a new branch
         run: |

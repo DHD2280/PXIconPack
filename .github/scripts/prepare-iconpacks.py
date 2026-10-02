@@ -147,7 +147,7 @@ def update_manifest():
         android:label="{pack_name}"
         android:exported="true">
         <intent-filter>
-            <action android:name="sh.siava.pixelxpert.iconpack" />
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
     </activity>

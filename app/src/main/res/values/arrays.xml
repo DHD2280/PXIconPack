@@ -657,4 +657,73 @@
     <item>ic_collapse_notification_android_bars</item>
     <item>ic_expand_more_android_bars</item>
 </string-array>
+
+    <string-array name="notification_test">
+        <item>mapping_source_nfn_test</item>
+        <item>replacement_nfn_test</item>
+        <item>mapping_source_dark_nfn_test</item>
+        <item>replacement_dark_nfn_test</item>
+    </string-array>
+
+    <string-array name="mapping_source_nfn_test">
+        <item>com.android.systemui:coui_alert_dialog_background</item>
+        <item>com.android.systemui:global_actions_lite_background</item>
+        <item>com.android.systemui:global_actions_lite_button</item>
+        <item>com.android.systemui:notification_guts_bg</item>
+        <item>com.android.systemui:notification_material_bg</item>
+        <item>com.android.systemui:notification_material_bg_monet</item>
+        <item>com.android.systemui:notification_settings_panel_background</item>
+    </string-array>
+
+    <string-array name="replacement_nfn_test">
+        <item>coui_alert_dialog_background</item>
+        <item>global_actions_lite_background</item>
+        <item>global_actions_lite_button</item>
+        <item>notification_guts_bg</item>
+        <item>notification_material_bg</item>
+        <item>notification_material_bg_monet</item>
+        <item>notification_settings_panel_background</item>
+    </string-array>
+
+    <string-array name="mapping_source_dark_nfn_test">
+        <item>com.android.systemui:coui_alert_dialog_background</item>
+        <item>com.android.systemui:global_actions_lite_background</item>
+        <item>com.android.systemui:global_actions_lite_button</item>
+        <item>com.android.systemui:notification_guts_bg</item>
+        <item>com.android.systemui:notification_material_bg</item>
+        <item>com.android.systemui:notification_material_bg_monet</item>
+        <item>com.android.systemui:notification_settings_panel_background</item>
+    </string-array>
+
+    <string-array name="replacement_dark_nfn_test">
+        <item>coui_alert_dialog_background_dark</item>
+        <item>global_actions_lite_background_dark</item>
+        <item>global_actions_lite_button_dark</item>
+        <item>notification_guts_bg_dark</item>
+        <item>notification_material_bg_dark</item>
+        <item>notification_material_bg_monet_dark</item>
+        <item>notification_settings_panel_background_dark</item>
+    </string-array>
+
+    <string-array name="toast_test">
+        <item>mapping_source_aurora_wifi</item>
+        <item>replacement_aurora_wifi</item>
+    </string-array>
+
+    <string-array name="mapping_source_aurora_wifi">
+        <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+        <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+        <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+        <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+        <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+    </string-array>
+
+    <string-array name="replacement_aurora_wifi">
+        <item>stat_signal_wifi_signal_4_systemui_aurora_wifi</item>
+        <item>stat_signal_wifi_signal_0_systemui_aurora_wifi</item>
+        <item>stat_signal_wifi_signal_3_systemui_aurora_wifi</item>
+        <item>stat_signal_wifi_signal_1_systemui_aurora_wifi</item>
+        <item>stat_signal_wifi_signal_2_systemui_aurora_wifi</item>
+    </string-array>
+
 </resources>
